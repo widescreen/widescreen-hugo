@@ -7,6 +7,11 @@ hugo -t hyde # if using a theme, replace by `hugo -t <yourtheme>`
 
 # Go To Public folder
 cd public
+
+# Send the site to widescreen.io
+touch CNAME
+echo "widescreen.io" > CNAME
+
 # Add changes to git.
 git add -A
 
